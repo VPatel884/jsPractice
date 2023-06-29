@@ -16,3 +16,13 @@ const myN = "Vikash "
 myN += "Patel";  
 const mySur = "patel";
 myN + mySur;
+
+// String length
+
+let nameLength = 0;
+const myName = "Vikash Patel";
+nameLength = myName.length;
+const firstLetter = myName[0];
+
+// for Nth word
+let lastWord = myName[myName.length-1];

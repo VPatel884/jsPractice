@@ -9,3 +9,10 @@ let myStr = "FirstLine\n\t\SecondLine\nThirdLine"
     \r	carriage return
     \b	backspace
     \f	form feed */
+
+// Concatenating Strings
+const myS = "My name is Vikash " + "Patel.";  
+const myN = "Vikash "
+myN += "Patel";  
+const mySur = "patel";
+myN + mySur;
